@@ -1,0 +1,85 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trabalho WEB</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="function.js"></script>
+</head>
+<body>
+	<div class="forms">
+	<form name="formCirculo">
+		<fieldset>
+		<h1>Área do Círculo</h1><br>
+		<label for="iraio">Raio:</label>
+		<input type="number" name="raio" id="iraio">
+		<label>metros.</label></br></br>
+		<img src="fcirc.PNG"></br></br>
+		<img src="cir.PNG"></br></br>
+		<input type="button" value="Calcular" onclick="areaCirculo()">
+		<input type="reset" value="Limpar"></br></br>
+		<label id="ires1">Superfície do Círculo</label></br></br>
+		<input type="text" name="resultado" id="ires1">
+		<label>Metros²</label>
+		</fieldset>
+	</form>
+
+	<form name="formTriangulo">
+		<fieldset>
+		<h1>Área do Triângulo</h1><br>
+		<label for="ibase">Base:</label>
+		<input type="number" name="base" id="ibase">
+		<label>metros.</label></br></br>
+		<label for="ialtura">Altura:</label>
+		<input type="number" name="altura" id="ialtura">
+		<label>metros.</label></br></br>
+		<img src="ftri.PNG"></br></br>
+		<img src="tri.PNG"></br></br>
+		<input type="button" value="Calcular" onclick="areaTriangulo()">
+		<input type="reset" value="Limpar"></br></br>
+		<label id="ires2">Superfície do Triângulo</label></br></br>
+		<input type="text" name="resultado2" id="ires2">
+		<label>Metros²</label>
+		</fieldset>
+	</form>
+</div>
+<div class="forms">
+	<form name="formCubo">
+		<fieldset>
+		<h1>Área do Cubo</h1><br>
+		<label for="iaresta">Aresta:</label>
+		<input type="number" name="aresta" id="iaresta">
+		<label>metros.</label></br></br>
+		<img src="fcubo.PNG"></br></br>
+		<img src="cubo.PNG"></br></br>
+		<input type="button" value="Calcular" onclick="areaCubo()">
+		<input type="reset" value="Limpar"></br></br>
+		<label id="ires3">Superfície do Cubo</label></br></br>
+		<input type="text" name="resultado3" id="ires3">
+		<label>Metros²</label>
+		</fieldset>
+	</form>
+
+	<form name="formCilindro">
+		<fieldset>
+		<h1>Área do Cilindro</h1><br>
+		<label for="iraio2">Raio:</label>
+		<input type="number" name="raio2" id="iraio2">
+		<label>metros.</label></br></br>
+		<label for="ialtura">Altura:</label>
+		<input type="number" name="altura" id="ialtura">
+		<label>metros.</label></br></br>
+		<img src="fcilin.PNG"></br></br>
+		<img src="cil.PNG"></br></br>
+		<input type="button" value="Calcular" onclick="areaCilindro()">
+		<input type="reset" value="Limpar"></br></br>
+		<label id="ires4">Superfície do Cilindro</label></br></br>
+		<input type="text" name="resultado4" id="ires4">
+		<label>Metros²</label>
+		</fieldset>
+	</form>
+</div>
+</body>
+</html>
